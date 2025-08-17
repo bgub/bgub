@@ -8,6 +8,7 @@
 - **[tokka](https://github.com/bgub/tokka)** - Toolkit for training BPE tokenizers on custom data splits (_tokenizers, datasets, mosaicml-streaming_)
 - **[tokka-bench](https://github.com/bgub/tokka-bench)** - Benchmark and compare tokenizers across many languages (_tokenizers, streamlit_)
 - **[hf_to_mds](https://github.com/bgub/hf_to_mds)** - Convert HuggingFace datasets to MosaicML Streaming format (MDS) for efficient cloud-based training (_datasets, mosaicml-streaming_)
+- **[gom](https://github.com/bgub/gom)** -  CLI tool to monitor GPU usage across Docker processes (_pynvml_)
 - **[mokka](https://github.com/bgub/mokka)** (WIP) - Toolkit for creating SLMs easily, targeted towards researchers (_PyTorch, OmegaConf, WandB_) 
 - **[shade](https://github.com/nebrelbug/shade)** (WIP) - PyTorch-like computation library for TS/JS using WebGPU (_Deno, WGSL_)
 

@@ -1,5 +1,7 @@
 # Ben Gubler
 
+_Looking for a project that isn't here? Check out [@nebrelbug](https://github.com/nebrelbug), my old account where I store archived/inactive projects._ 
+
 - Student at BYU w/ a dual major in ACME (Applied and Computational Mathematics) and Arabic
 - Currently interning at Vercel
 - Previously conducted research on AI alignment + mech. interp. at BYU's Perception, Control, and Cognition Lab

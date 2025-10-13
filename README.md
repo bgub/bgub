@@ -6,7 +6,7 @@ _Looking for a project that isn't here? Check out [@nebrelbug](https://github.co
 - Currently interning at Vercel
 - Previously conducted research on AI alignment + mech. interp. at BYU's Perception, Control, and Cognition Lab
 
-## Projects - AI
+## Projects - AI/ML/GPU
 - **[tokka](https://github.com/bgub/tokka)** - Toolkit for training BPE tokenizers on custom data splits (_tokenizers, datasets, mosaicml-streaming_)
 - **[tokka-bench](https://github.com/bgub/tokka-bench)** - Benchmark and compare tokenizers across many languages (_tokenizers, streamlit_)
 - **[hf_to_mds](https://github.com/bgub/hf_to_mds)** - Convert HuggingFace datasets to MosaicML Streaming format (MDS) for efficient cloud-based training (_datasets, mosaicml-streaming_)

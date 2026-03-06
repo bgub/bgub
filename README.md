@@ -7,6 +7,8 @@ _Looking for a project that isn't here? Check out [@nebrelbug](https://github.co
 - Previously conducted research on AI alignment + mech. interp. at BYU's Perception, Control, and Cognition Lab
 
 ## Projects - AI/ML/GPU
+- **[agentpane](https://github.com/bgub/agentpane)** - Local web UI for AI coding agents. Multi-pane, multi-session, streaming — run Claude Code and Codex side by side from your browser. (_Next.js, Hono, Effect.ts, ACP_)
+- **[helm](https://github.com/bgub/helm)** - Typed TypeScript framework for AI agents. Replace dozens of tools with search + execute, and sandbox LLM-generated code with granular permissions. (_TypeScript, SES_)
 - **[tokka](https://github.com/bgub/tokka)** - Toolkit for training BPE tokenizers on custom data splits (_tokenizers, datasets, mosaicml-streaming_)
 - **[tokka-bench](https://github.com/bgub/tokka-bench)** - Benchmark and compare tokenizers across many languages (_tokenizers, streamlit_)
 - **[hf_to_mds](https://github.com/bgub/hf_to_mds)** - Convert HuggingFace datasets to MosaicML Streaming format (MDS) for efficient cloud-based training (_datasets, mosaicml-streaming_)

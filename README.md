@@ -23,6 +23,7 @@ _Looking for a project that isn't here? Check out [@nebrelbug](https://github.co
 - **[nix-macos-starter](https://github.com/nebrelbug/nix-macos-starter)** - Starter Nix config for macOS (_nix-darwin, home-manager, homebrew, mise_)
 - **[Decline App](https://decline.vercel.app)** - PWA for practicing Czech, Slovak, and Russian declension patterns. (_Next.js, Tailwind, PWA_)
 - **[npm-to-yarn](https://www.npmjs.com/package/npm-to-yarn)** - Converts between npm/Yarn/pnpm/bun CLI commands. (_TypeScript, Jest_)
+- **[cosmic-ext-applet-pomodoro](https://github.com/bgub/cosmic-ext-applet-pomodoro)** - Pomodoro timer applet for the COSMIC desktop. Sits in the panel with configurable work/break intervals. (_Rust, libcosmic_)
 - **Open source contributions** - Various TypeScript and web development projects on GitHub.
 
 You can find more of my work at [bengubler.com](https://bengubler.com?utm_source=gh_profile_readme), where I post projects and write about AI, distributed training, and language learning.

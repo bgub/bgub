@@ -32,7 +32,7 @@
   name: "Ben Gubler",
   email: "hello@bengubler.com",
   site: "bengubler.com",
-  github: "github.com/nebrelbug",
+  github: "github.com/bgub",
   linkedin: "linkedin.com/in/ben-gubler",
 ) = {
   align(center,

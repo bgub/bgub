@@ -2,156 +2,122 @@
 
 #show: resume
 
-#header()
+#header(github: "github.com/bgub")
 
 #resume_heading[Education]
 #experience_item(
   place: "Brigham Young University",
-  role: "B.S. in ACME (Applied & Computational Mathematics Emphasis), B.A. in Arabic",
+  role: "B.S. in Computer Science, minors in Mathematics and Arabic",
   location: "Provo, UT",
   date: "May 2027",
-  [Cumulative GPA: 3.86],
+  [Cumulative GPA: 3.87],
   [Full-tuition Heritage Scholarship from BYU],
-  [Relevant Coursework: Software Engineering; Math 213, 215 (Linear Algebra); Math 290 (Proofs);  Advanced Artificial Intelligence (CS 474)]
+  [Selected Coursework: Data Structures; Advanced Software Construction; Discrete Structures; Algorithm Design & Analysis; Operating Systems Design; Deep Learning; Linear Algebra; Proofs]
 )
 
 #resume_heading[Technical Skills]
 #skill_item(
-  category: "Web Development",
-  skills: "Node.js, JavaScript, TypeScript, React, Next.js, Vite, Tailwind, HTML/CSS, ESLint, Biome"
+  category: "JavaScript/TypeScript",
+  skills: "TypeScript, JavaScript, React, Next.js, Node.js, Hono, Vite, Tailwind, Effect.ts, ESLint, Biome"
 )
 #skill_item(
-  category: "Machine Learning",
-  skills: "PyTorch, PyTorch Distributed, HuggingFace Transformers, HuggingFace Accelerate, FSDP"
+  category: "AI/ML",
+  skills: "PyTorch, PyTorch Distributed, Transformers, Accelerate, FSDP, lm-evaluation-harness, WandB, OmegaConf"
 )
 #skill_item(
-  category: "Other",
-  skills: "Ubuntu, Git, Bash, Docker, enroot, SLURM, Python, C++, Rust, Java, SQL, GitHub Actions, Turbopack, Webpack"
+  category: "Systems/Infra",
+  skills: "Rust, Linux, Bash, Docker, Enroot, SLURM, Git, GitHub Actions, SQL, C++, WebGPU/WGSL, Turbopack"
 )
 
 #resume_heading[Work Experience]
 #experience_item(
   place: "Vercel",
-  role: "Software Engineering Intern",
+  role: "Software Engineering Intern and Contractor, Next.js",
   location: "Remote",
-  date: "Jun - Aug 2025",
+  date: "Jun-Aug 2025; Jan-Apr 2026",
+  [Returned to Vercel on contract in 2026 to continue work on Next.js and developer tooling in the React/TypeScript ecosystem],
   [Implemented statically typed links for Turbopack and developed automatic type generation system for PageProps, LayoutProps, and RouteContext],
-  [Built route export validation system for Turbopack using TypeScript's satisfies operator, catching invalid exports at compile time],
-  [Deprecated next lint command, created automated codemod for migration to ESLint CLI, and integrated Biome as fast alternative linter option]
+  [Built route export validation with TypeScript's satisfies operator, catching invalid exports at compile time],
+  [Deprecated next lint, created a codemod for migration to ESLint CLI, and integrated Biome as a faster linting option]
 )
 #experience_item(
   place: "Perception, Control, and Cognition Lab (BYU)",
   role: "Artificial Intelligence Research Assistant",
   location: "Provo, UT",
-  date: "Mar 2023 - Present",
-  [Built a scalable pipeline for pretraining small LLMs on a supercomputing cluster, leveraging PyTorch Distributed, Enroot, SLURM, Wandb, OmegaConf, and Eleuther's lm-evaluation-harness],
-  [Wrote a training loop to fine-tune Meta's LLaMA 70B using only 8 GPUs by utilizing FSDP],
-  [Learned to use our cluster of 80 A100 GPUs across 8 nodes using SLURM and enroot, taught coworkers, and wrote documentation],
-  [Designed and executed experiments using LLMs to simulate human respondents and evaluate their perspectives]
+  date: "Mar 2023-May 2025",
+  [Built a scalable small-LLM pretraining pipeline using PyTorch Distributed, Enroot, SLURM, WandB, OmegaConf, and lm-evaluation-harness],
+  [Wrote a training loop to fine-tune Meta's LLaMA 70B on 8 GPUs using FSDP],
+  [Operated an 80-A100, 8-node cluster, then taught coworkers and wrote documentation for the lab]
 )
-// #experience_item(
-//   place: "Oncurrent, Inc.",
-//   role: "Software Tester",
-//   location: "Provo, UT",
-//   date: "Jul – Oct 2020, Dec 2022 – Mar 2023",
-//   columns: (2fr, 2fr),
-//   [Wrote automated end-to-end tests for our web application using Cypress],
-//   [Manually tested the application, filed 300+ issues, and contributed fixes]
-// )
-
 #resume_heading[Personal Projects]
 #project_item(
-  name: "Eta",
-  url: "eta.js.org",
-  skills: "TypeScript",
-  date: "Mar 2020 - Present",
-  [Automated testing and code coverage reports using CI on GitHub Actions],
-  [1.5K+ GitHub Stars and ~1M weekly downloads; powers Facebook's Docusaurus doc generator]
+  name: "agentpane",
+  url: "github.com/bgub/agentpane",
+  skills: "Next.js, Hono, Effect.ts, ACP",
+  date: "Feb 2026-Present",
+  [Built a local multi-pane web UI for AI coding agents with multi-session streaming and side-by-side browser workflows]
+)
+#project_item(
+  name: "helm",
+  url: "github.com/bgub/helm",
+  skills: "TypeScript, SES",
+  date: "Feb 2026-Present",
+  [Built a typed TypeScript framework for AI agents around search + execute abstractions rather than sprawling tool surfaces],
+  [Powered "code mode" style agent workflows and sandboxed LLM-generated code with granular permissions using SES]
 )
 #project_item(
   name: "tokka-bench",
   url: "github.com/bgub/tokka-bench",
   skills: "Python, Tokenizers, Streamlit",
-  date: "Present",
-  [Comprehensive benchmark suite for comparing tokenizer performance across multiple languages with interactive visualizations]
+  date: "Aug 2025-Present",
+  [Built a benchmark suite for comparing tokenizer performance across multiple languages with interactive visualizations]
 )
 #project_item(
-  name: "tokka",
-  url: "github.com/bgub/tokka",
-  skills: "Python, Tokenizers, MosaicML Streaming",
-  date: "Present",
-  [Toolkit for training custom BPE tokenizers on arbitrary data splits with support for efficient cloud-based training workflows]
-)
-#project_item(
-  name: "Shade",
+  name: "shade",
   url: "github.com/bgub/shade",
   skills: "TypeScript, WebGPU, WGSL",
-  date: "Present",
-  [PyTorch-like computation library for TypeScript/JavaScript using WebGPU for high-performance GPU computing in the browser]
+  date: "Jun 2025-Present",
+  [Built a PyTorch-like computation library for TypeScript/JavaScript using WebGPU for high-performance GPU computing in the browser]
 )
-// #project_item(
-//   name: "Decline App",
-//   url: "decline.vercel.app",
-//   skills: "Next.js, PWA, Tailwind",
-//   date: "Mar 2022",
-//   [App for practicing Czech, Slovak, and Russian declension patterns]
-// )
 #project_item(
-  name: "Personal Website",
-  url: "bengubler.com",
-  skills: "Next.js 15, Tailwind, MDX",
-  date: "Mar 2017 - Present",
-  [Personal website and blog covering AI, distributed training, and language learning]
+  name: "eta",
+  url: "eta.js.org",
+  skills: "TypeScript, GitHub Actions",
+  date: "Mar 2020-Present",
+  [Maintainer of a fast embedded JS template engine with automated testing and release workflows],
+  [1.6K+ GitHub stars and ~2M weekly downloads; used by Docusaurus]
 )
-// #project_item(
-//   name: "npm-to-yarn",
-//   url: "npmjs.com/npm-to-yarn",
-//   skills: "TypeScript",
-//   date: "Mar 2020 - Present",
-//   [npm package to convert between npm and Yarn CLI commands]
-// )
-// #project_item(
-//   name: "'Tic-Tac-Too'",
-//   url: "tictactoe.bengubler.com",
-//   skills: "TensorFlow, TensorFlow.js",
-//   date: "Jan 2019",
-//   [AI tic-tac-toe program built using TensorFlow.js (low-quality since created as a teen)]
-// )
+#skill_item(
+  category: "More Projects",
+  skills: [
+    #link("https://www.npmjs.com/package/npm-to-yarn")[npm-to-yarn], 
+    #link("https://github.com/bgub/ts-base")[ts-base], 
+    #link("https://github.com/bgub/hf_to_mds")[hf_to_mds], 
+    #link("https://github.com/cosmic-utils/cosmic-ext-applet-pomodoro")[cosmic-ext-applet-pomodoro], 
+    #link("https://github.com/bgub/nix-macos-starter")[nix-macos-starter], 
+    #link("https://tinylingo.com")[TinyLingo]
+  ]
+)
 
 #resume_heading[Service]
 #experience_item(
   place: "The Church of Jesus Christ of Latter-day Saints",
   role: "Volunteer Service Representative",
   location: "Texas; Czechia; Slovakia",
-  date: "Oct 2020 - Nov 2022",
+  date: "Oct 2020-Nov 2022",
   [Organized and taught free English classes, helped local city government process travel documents of Ukrainian refugees],
 )
-// #experience_item(
-//   place: "Kids Who Code",
-//   role: "Volunteer Teacher",
-//   location: "Provo, UT",
-//   date: "Mar - Jul 2023",
-//   [Taught free weekly programming lessons in Python to elementary-age children]
-// )
 
 #resume_heading[Additional]
 #skill_item(
   category: "Languages",
-  skills: "Fluent in English, Czech; conversational in Slovak; basic proficiency in Russian, Arabic"
+  skills: "Fluent in English and Czech; conversational in Slovak; intermediate Arabic; basic Russian"
 )
 #skill_item(
-  category: "Awards",
-  skills: "AP Scholar Award (2019); Philo T. Farnsworth Governor's Award for innovation (2020)"
+  category: "Awards & Scores",
+  skills: "AP Scholar Award (2019); Philo T. Farnsworth Governor's Award for Innovation (2020); ACT: 36"
 )
 #skill_item(
   category: "Hobbies",
-  skills: "Classic literature, rock climbing, open-source, poetry, backpacking, pickleball, language learning"
-)
-#skill_item(
-  category: "Courses",
-  skills: "'Neural Networks: Zero to Hero' by Andrej Karpathy" 
-)
-#skill_item(
-  category: "High School",
-  skills: "ACT — 36, GPA — 3.95"
+  skills: "Classic literature, rock climbing, open source, poetry, backpacking, pickleball, language learning"
 )
